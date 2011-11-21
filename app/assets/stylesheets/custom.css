@@ -5,6 +5,7 @@
 
 body {
 	background: #cff;
+	
 }
 
 header {
@@ -16,11 +17,18 @@ header img {
 	background: #fff;
 }
 
+header section {
+	padding: 1em;
+	background: #fff;
+	width 300px;
+}
+
 section {
 	margin-top: 1em;
 	font-size; 120%;
 	padding: 20px;
 	background: #fff;
+	
 }
 
 a {
@@ -98,3 +106,4 @@ footer {
 footer nav {
 	float: none;
 }
+

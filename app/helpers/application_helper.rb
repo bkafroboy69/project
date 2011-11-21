@@ -1,8 +1,8 @@
 module ApplicationHelper
-  #@base_title = 'Kays App'
+  #@base_title = 'Matts Project'
   
   def title
-    base_title = 'Kays App'
+    base_title = 'Matts Project'
     if @title.nil?
        base_title
     else
@@ -11,7 +11,7 @@ module ApplicationHelper
   end
   
   def logo
-    image_tag("logo.png", :alt => "Kays App", :class => "round")
+    image_tag("goku2.gif", :alt => "Matts Project", :class => "round")
   end
   
   

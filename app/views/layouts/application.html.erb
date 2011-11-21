@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title><%= title %></title>
+		
+		
+		<title><%= @title %></title>
         <%= render 'layouts/stylesheets' %>
 		<%= javascript_include_tag "application" %>
 		<%= csrf_meta_tags %>
@@ -13,6 +15,14 @@
 						<%= yield %>
 					</section>
 			<%= render 'layouts/footer' %>
+			
+			
+			
 		</div>
+		
+
+		
+		
+		
 	</body>
 </html>
