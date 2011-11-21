@@ -2,7 +2,7 @@ module ApplicationHelper
   #@base_title = 'Kays App'
   
   def title
-    base_title = 'Kays App'
+    base_title = 'Matts Project'
     if @title.nil?
        base_title
     else
