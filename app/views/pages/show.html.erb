@@ -1,0 +1,7 @@
+<h1>Pages#show</h1>
+<p>Find me in app/views/pages/show.html.erb</p>
+
+
+<p><strong>Name:</strong><%= @user.name %></p>
+<%= link_to "Home", root_path%>
+<%= debug(params) if Rails.env.development? %>
