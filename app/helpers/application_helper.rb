@@ -16,8 +16,13 @@ module ApplicationHelper
     
   end
   def banner
-    "hello world"
+    "FOOD-METER"
   end
+
+def wordwithnumber(words)
+   words[rand(words.length)]
+end
+
 
 
 end
