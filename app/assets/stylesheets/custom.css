@@ -6,9 +6,19 @@
 body {
 	background: #55eeff;
 }
+#banner {
+	background-position: 100px 0px;
+	background-color: #aaaaaa;
+	padding-top: 20px;
+	height: 50px;
+	width: 670px;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+}
 
 header {
-	padding-top: 20px;
+	
 }
 
 header img {

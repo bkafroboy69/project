@@ -1,5 +1,5 @@
 module ApplicationHelper
-  #@base_title = 'Kays App'
+
   
   def title
     base_title = 'Matts Project'
@@ -13,7 +13,11 @@ module ApplicationHelper
   def logo
     
     image_tag("goku.gif", :alt => "Matts Project", :class => "round")
+    
   end
-  
-  
+  def banner
+    "hello world"
+  end
+
+
 end
