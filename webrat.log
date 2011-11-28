@@ -22,3 +22,9 @@ REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/legal"
 REQUESTING PAGE: GET /copyright with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
 REQUESTING PAGE: GET /privacy with {} and HTTP headers {"HTTP_REFERER"=>"/copyright"}
 REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/privacy"}
+REQUESTING PAGE: GET / with {} and HTTP headers {}
+REQUESTING PAGE: GET /legal with {} and HTTP headers {"HTTP_REFERER"=>"/"}
+REQUESTING PAGE: GET /contact with {} and HTTP headers {"HTTP_REFERER"=>"/legal"}
+REQUESTING PAGE: GET /copyright with {} and HTTP headers {"HTTP_REFERER"=>"/contact"}
+REQUESTING PAGE: GET /privacy with {} and HTTP headers {"HTTP_REFERER"=>"/copyright"}
+REQUESTING PAGE: GET / with {} and HTTP headers {"HTTP_REFERER"=>"/privacy"}

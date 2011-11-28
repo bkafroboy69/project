@@ -7,6 +7,17 @@ body {
 	background: #55eeff;
 }
 
+h1 {
+	text-align: center;
+	font-size: 100%;
+	font-weight: bold;
+}
+h4 {
+	
+	font-size: 150%;
+	font-weight: bold;
+}
+
 
 #banner {
 	background-position: 100px 0px;

@@ -12,9 +12,10 @@ SampleApp4::Application.routes.draw do
   root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
   match '/copyright', :to => 'pages#copyright'
-   match '/privacy', :to => 'pages#privacy'
+  match '/privacy', :to => 'pages#privacy'
   match '/legal', :to => 'pages#legal'
   match '/help', :to => 'pages#help'
+  match '/faq', :to => 'pages#faq'
   match '/signup', :to => 'users#new'
   
  
