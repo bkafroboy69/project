@@ -3,12 +3,20 @@ class PagesController < ApplicationController
     @title = "Home"
   end
 
+  def legal
+    @title = "Legal"
+  end
+
   def contact
     @title = "Contact"
   end
   
-  def about
-    @title = "About"
+  def copyright
+    @title = "Copyright"
+  end
+  
+   def privacy
+    @title = "Privacy"
   end
   
   def help

@@ -4,22 +4,32 @@ describe "LayoutLinks" do
   
     it "should have a home page at '/'" do
       get '/'
-      response.should have_selector("title", :content => "Kays App | Home")
+      response.should have_selector("title", :content => "Matts Project | Home")
     end
   
-     it "should have a contact page at '/contact'" do
-      get '/contact'
-      response.should have_selector("title", :content => "Kays App | Contact")
+     it "should have a legal page at '/legal'" do
+      get '/legal'
+      response.should have_selector("title", :content => "Matts Project  | Legal")
     end
     
-     it "should have an about page at '/about'" do
-      get '/about'
-      response.should have_selector("title", :content => "Kays App | About")
+     it "should have an about page at '/contact'" do
+      get '/contact'
+      response.should have_selector("title", :content => "Matts Project  | Contact")
+    end
+    
+    it "should have an about page at '/copyright'" do
+      get '/copyright'
+      response.should have_selector("title", :content => "Matts Project  | Copyright")
+    end
+    
+    it "should have an about page at '/privacy'" do
+      get '/privacy'
+      response.should have_selector("title", :content => "Matts Project  | Privacy")
     end
     
     it "should have a help page at '/help'" do
       get '/help'
-      response.should have_selector("title", :content => "Kays App | Help")
+      response.should have_selector("title", :content => "Matts Project  | Help")
     end
     
      it "should have a sign-up page at '/signup'" do
@@ -30,10 +40,14 @@ describe "LayoutLinks" do
     it "should have the right links on the layout" do
       visit root_path
       response.should have_selector('title', :content => "Home")
-      click_link "About"
-      response.should have_selector('title', :content => "About")
+      click_link "Legal"
+      response.should have_selector('title', :content => "Legal")
       click_link "Contact"
       response.should have_selector('title', :content => "Contact")
+      click_link "Copyright"
+      response.should have_selector('title', :content => "Copyright")
+      click_link "Privacy"
+      response.should have_selector('title', :content => "Privacy")
       click_link "Home"
       response.should have_selector('title', :content => "Home")
       click_link "Sign up now"
