@@ -7,16 +7,6 @@ body {
 	background: #55eeff;
 }
 
-h15 {
-	background-position: 100px 0px;
-	background-color: #aaaaaa;
-	padding-top: 20px;
-	height: 50px;
-	width: 670px;
-	position: relative;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-}
 
 #banner {
 	background-position: 100px 0px;
@@ -26,6 +16,7 @@ h15 {
 	width: 670px;
 	padding: 20px;
 	border-radius: 10px;
+	font-size: 150%;
 	font-weight: bold;
 	position: relative;
 	background-repeat: no-repeat;
