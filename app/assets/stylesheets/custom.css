@@ -1,10 +1,13 @@
 
 .container {
 	width: 710px;
+	
+	
 }
 
 body {
 	background: #55eeff;
+	
 }
 
 h1 {
@@ -32,17 +35,20 @@ h4 {
 	position: relative;
 	background-repeat: no-repeat;
 	background-attachment: scroll;
+	border: thin black solid;
 }
 
 
 
 header img {
-	padding: 1em;
+	padding: .5em;
 	background: #fff;
+	width: auto;
 	
 }
 
 section {
+	border: medium black solid;
 	margin-top: 1em;
 	font-size; 120%;
 	padding: 20px;
@@ -120,6 +126,7 @@ footer {
 	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
+
 }
 
 footer nav {
