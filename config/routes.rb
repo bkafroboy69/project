@@ -1,14 +1,10 @@
 SampleApp4::Application.routes.draw do
-  get "users/new"
+ 
 
-    resources:users
+    resources :users
+    resources :sessions, :only => [:new, :create, :destroy]
     
-  get "pages/home"
-
-  get "pages/contact"
-
-  get "users/new"
-
+ 
   root :to => 'pages#home'
   match '/contact', :to => 'pages#contact'
   match '/copyright', :to => 'pages#copyright'
@@ -17,6 +13,8 @@ SampleApp4::Application.routes.draw do
   match '/help', :to => 'pages#help'
   match '/faq', :to => 'pages#faq'
   match '/signup', :to => 'users#new'
+  match '/signin', :to => 'sessions#new'
+  match '/signout', :to => 'sessions#destroy'
   
  
 
