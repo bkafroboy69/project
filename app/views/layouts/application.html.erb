@@ -8,6 +8,11 @@
 	</head>
 	<body>
 		<div class="container">
+			 <% flash.each do |key, value| %>
+     <div class="flash <%= key %>">
+         <%= value %>
+     </div>
+  <% end %>
             <%= render 'layouts/header' %>
 					<section class="round">
 			 <%= render 'layouts/main' %>
@@ -15,5 +20,7 @@
 					</section>
 			<%= render 'layouts/footer' %>
 		</div>
+		
+		
 	</body>
 </html>
