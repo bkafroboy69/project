@@ -93,7 +93,10 @@ end
       redirect_to user
     end
   end
-  
+  def sign_out
+    cookies.delete(:remember_token)
+    current_user= nil
+  end
 
 end
 
