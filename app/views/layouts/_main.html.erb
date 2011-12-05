@@ -11,7 +11,11 @@
 			</li>
 			
 			<li>
-				<%= link_to "Sign up", signup_path %>
+			<% if signed_in? %>
+<h1 class="micropost">What's up?</h1>
+<% else %>
+<%= link_to "Sign up!", new_user_path %>
+<% end %>
 			</li>
 </table>
 
