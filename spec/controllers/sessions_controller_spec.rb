@@ -42,9 +42,8 @@ describe SessionsController do
     describe "successful signin" do
 
       before(:each) do
-        tempUser = {:name => "John Doe", :email => "jdoe@example.com"}
-        @user = User.create!(tempUser)
-        @attr = {:email => "jdoe@example.com"}
+        @user = Factory(:user)
+        @attr = { :email => @user.email }
       end
 
       it "should sign in the user" do
@@ -80,4 +79,5 @@ def sign_out
     cookies.delete(:remember_token)
     current_user= nil
   end
+end
 end
