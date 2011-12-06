@@ -2,9 +2,24 @@
 
 
 
+
+<%= link_to "Search!", search_path, :class => "signup_button round" %>
+
+<%= select(:time, :value, { "apple" => 1, "pear" => 2, "strawberry" => 3 }) %>
+
+<select id="time_value" name="time[value]">
+  <option value="One">1</option>
+  <option value="Two">2</option>
+  <option value="Three">3</option>
+  </select>
+
+
 <p>This is just a prototype right now. Over time this website will be developed piece by piece. 
 	Users will have the ability to look up food products and see how many calories a food item contains. 
 	And then store them in the users own personal database</p>
 	
 	<p>As of right now i have set up the footer to send users to pages that contain the right information.
 		And will have a basic sign up</p>
+
+
+
