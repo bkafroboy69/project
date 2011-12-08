@@ -2,7 +2,39 @@
  
  
  
-	 <p>Bread(1 Slice)<br/>
-	 	Calories 67
+	 <p>Whole Wheat Bread(1 Slice)<br/>
+	 	Calories 89
 	 	</p>
+	 	
+	 	<p>White Bread(1 Slice)<br/>
+	 	Calories 120
+	 	</p>
+	 	
+	 	<p>Rice, Cooked/Boiled (1 Cup)<br/>
+	 	Calories 169
+	 	</p>
+	 	
+	 	<p>Pasta (3oz)<br/>
+	 	Calories 112
+	 	</p>
+	 	
+	 	<p>Cereal, Bran Flakes (3/4 Cup)<br/>
+	 	Calories 96
+	 	</p>
+	 	
+	 	
+	 	<% if signed_in? %>
+
+
+<%= link_to "Vegtables", search2_path, :class => "button round" %>
+
+<%= link_to "Fruits", search3_path, :class => "button round"%>
+
+<%= link_to "Dairy", search4_path, :class => "button round"%>
+
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<% end %>
+	 	
+	 	
+	 	
 	<header>

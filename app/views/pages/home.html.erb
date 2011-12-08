@@ -17,42 +17,23 @@
 
 
 
-<select id="options">
-  <option value="carbohydrates">carbohydrates</option>
-  <option value="vegtables">vegtables</option>
-   <option value="fruits">fruits</option>
-  <option value="dairy">dairy</option>
-   <option value="meats and beans">meats and beans</option>
-
-</select>
 
 
 
-<%= link_to "carbohydrates", search_path %>
+<% if signed_in? %>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%>
 
-<%= link_to "vegtables", search2_path %>
+<%= link_to "Vegtables", search2_path, :class => "button round" %>
 
-<%= link_to "fruits", search3_path %>
+<%= link_to "Fruits", search3_path, :class => "button round"%>
 
-<%= link_to "dairy", search4_path %>
+<%= link_to "Dairy", search4_path, :class => "button round"%>
 
-<%= link_to "meats and beans", search4_path %>
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<% end %>
 <br/>
 
 
 
 
-<form method="get" action="http://www.codeave.com/html/get.asp"
-onsubmit="return dropdown_validator()" name="dropdown_form">
 
-<select size="1" name="dropdown_name">
-<option>Select A Letter</option>
-<option value="A">A</option>
-<option value="B">B</option>
-<option value="C">C</option>
-<option value="D">D</option>
-<option value="E">E</option>
-<option value="F">F</option>
-</select>
-<input type="submit" value="Submit">
-</form>

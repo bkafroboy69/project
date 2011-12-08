@@ -5,4 +5,39 @@
 	 <p>Milk<br/>
 	 	Calories 78
 	 	</p>
+	 	
+	 	 <p>Slice of cheese<br/>
+	 	Calories 94
+	 	</p>
+	 	<p>
+	 	Ice Cream Bar Caramel coated w/nuts<br/>
+	 	Calories 171
+	 	
+	 	</p>
+	 	
+	 	
+	 	
+	 	
+	 	<% if signed_in? %>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%>
+
+<%= link_to "Vegtables", search2_path, :class => "button round" %>
+
+<%= link_to "Fruits", search3_path, :class => "button round"%>
+
+
+
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<% end %>
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
 	<header>
+		

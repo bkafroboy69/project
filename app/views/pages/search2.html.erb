@@ -2,7 +2,39 @@
  
  
  
-	 <p>Tomato<br/>
-	 	Calories 21
+	 <p>Tomato Fresh (med size)<br/>
+	 	Calories 28
 	 	</p>
+	 	
+	 	<p>Cucmuber Fresh (1/2 cup)<br/>
+	 	Calories 8
+	 	</p>
+	 	
+	 	<p>Potato baked peeled (1/2 cup)<br/>
+	 	Calories 57
+	 	</p>
+	 	
+	 	<p>Lettecue(1 cup)<br/>
+	 	Calories 7
+	 	</p>
+	 	
+	 	
+	 	
+	 	<% if signed_in? %>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%>
+
+
+
+<%= link_to "Fruits", search3_path, :class => "button round"%>
+
+<%= link_to "Dairy", search4_path, :class => "button round"%>
+
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<% end %>
+	 	
+	 	
+	 	
+	 	
+	 	
+	 	
 	<header>
