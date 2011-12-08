@@ -9,9 +9,12 @@
 	<p>As of right now i have set up the footer to send users to pages that contain the right information.
 		And will have a basic sign up</p>
 
-<% if signed_in? %>
-<h1 class="micropost">What's up?</h1>
 
-<% else %>
-<%= link_to "Sign up now!", new_user_path, :class => "signup_button round" %>
+
+			<% if signed_in? %>
+<%= link_to "Carbs", s1_path %> 
+<%= link_to "Fruits", s2_path %>
+<%= link_to "Veggies", s3_path %> 
+<%= link_to "Dairy", s4_path %> 
+<%= link_to "Meat", s5_path %> 
 <% end %>
