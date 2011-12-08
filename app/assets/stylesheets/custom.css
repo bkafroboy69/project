@@ -37,7 +37,18 @@ h4 {
 	background-attachment: scroll;
 	border: thin black solid;
 }
+#sidebar {
+	background-position: 100px 0px;
+  height: 80px;
+  width: 50px;
+  float: left;
+  padding-left: 20px;
+  position: relative;
+  border-radius: 10px;
+  background-color :#FFFFFF
 
+	
+}
 
 
 header img {
