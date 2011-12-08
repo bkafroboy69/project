@@ -16,7 +16,9 @@ SampleApp4::Application.routes.draw do
   match '/signout', :to => 'sessions#destroy'
   match '/search', :to => 'pages#search'
   match '/search2', :to => 'pages#search2'
-
+  match '/search3', :to => 'pages#search3'
+  match '/search4', :to => 'pages#search4'
+  match '/search5', :to => 'pages#search5'
   # The priority is based upon order of creation:
   # first created -> highest priority.
 

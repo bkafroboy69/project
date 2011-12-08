@@ -19,7 +19,8 @@ ActiveRecord::Schema.define(:version => 20111124224107) do
     t.datetime "created_at"
     t.datetime "updated_at"
   end
-
+add_index "users", ["email"], :name => "index_users_on_email", :unique => true
+end
   add_index "mircoposts", ["user_id"], :name => "index_mircoposts_on_user_id"
 
   create_table "users", :force => true do |t|
@@ -29,6 +30,5 @@ ActiveRecord::Schema.define(:version => 20111124224107) do
     t.datetime "updated_at"
   end
 
-  add_index "users", ["email"], :name => "index_users_on_email", :unique => true
-end
+  
 

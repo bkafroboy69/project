@@ -42,8 +42,9 @@ describe SessionsController do
     describe "successful signin" do
 
       before(:each) do
-        @user = Factory(:user)
-        @attr = { :email => @user.email }
+        tempUser = {:name => "John Doe", :email => "jdoe@example.com"}
+        @user = User.create!(tempUser)
+        @attr = {:email => "jdoe@example.com"}
       end
 
       it "should sign in the user" do
@@ -75,9 +76,6 @@ describe SessionsController do
       response.should redirect_to(root_path)
     end
   end
-def sign_out
-    cookies.delete(:remember_token)
-    current_user= nil
-  end
+
 end
-end
+
