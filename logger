@@ -1,0 +1,119 @@
+2011-12-09T19:12:45+00:00 heroku[api]: Add-on add logging:basic by matt_gamble07@hotmail.com
+2011-12-09T19:12:45+00:00 heroku[api]: Release v2 created by matt_gamble07@hotmail.com
+2011-12-09T19:13:21+00:00 heroku[slugc]: Slug compilation started
+2011-12-09T19:16:05+00:00 heroku[api]: Add-on add shared-database:5mb by matt_gamble07@hotmail.com
+2011-12-09T19:16:05+00:00 heroku[api]: Release v3 created by matt_gamble07@hotmail.com
+2011-12-09T19:16:05+00:00 heroku[api]: Config add RAILS_ENV, LANG, PATH, RACK_ENV, GEM_PATH by matt_gamble07@hotmail.com
+2011-12-09T19:16:05+00:00 heroku[api]: Release v4 created by matt_gamble07@hotmail.com
+2011-12-09T19:16:05+00:00 heroku[api]: Deploy f0e68fe by matt_gamble07@hotmail.com
+2011-12-09T19:16:06+00:00 heroku[api]: Release v5 created by matt_gamble07@hotmail.com
+2011-12-09T19:16:06+00:00 heroku[web.1]: State changed from created to starting
+2011-12-09T19:16:07+00:00 heroku[slugc]: Slug compilation finished
+2011-12-09T19:16:12+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 33472`
+2011-12-09T19:16:17+00:00 app[web.1]: Exiting
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/abstract_controller/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/railties/paths.rb:7:in `block (2 levels) in with'
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:417:in `block (2 levels) in eager_load!'
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/application/finisher.rb:51:in `block in <module:Finisher>'
+2011-12-09T19:16:17+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `instance_eval'
+2011-12-09T19:16:18+00:00 heroku[web.1]: State changed from starting to crashed
+2011-12-09T19:16:18+00:00 heroku[web.1]: State changed from crashed to created
+2011-12-09T19:16:18+00:00 heroku[web.1]: State changed from created to starting
+2011-12-09T19:16:23+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 8207`
+2011-12-09T19:16:28+00:00 app[web.1]: => Booting WEBrick
+2011-12-09T19:16:28+00:00 app[web.1]: => Rails 3.1.1 application starting in production on http://0.0.0.0:8207
+2011-12-09T19:16:28+00:00 app[web.1]: => Call with -d to detach
+2011-12-09T19:16:28+00:00 app[web.1]: => Ctrl-C to shutdown server
+2011-12-09T19:16:28+00:00 app[web.1]: Exiting
+2011-12-09T19:16:28+00:00 app[web.1]: /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require': /app/app/models/micropost.rb:6: syntax error, unexpected '=', expecting keyword_end (SyntaxError)
+2011-12-09T19:16:28+00:00 app[web.1]:  validates :content, :presense = > true
+2011-12-09T19:16:28+00:00 app[web.1]:                                 ^
+2011-12-09T19:16:28+00:00 app[web.1]: /app/app/models/micropost.rb:7: syntax error, unexpected tASSOC, expecting keyword_end
+2011-12-09T19:16:28+00:00 app[web.1]:                      :length => {:maximum => 150}
+2011-12-09T19:16:28+00:00 app[web.1]:                                ^
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `each'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `each'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `constantize'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/core_ext/string/inflections.rb:43:in `constantize'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:128:in `inherited'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/abstract_controller
+/railties/routes_helpers.rb:7:in `block (2 levels) in with'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/railties/paths.rb:7:in `block (2 levels) in with'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/app/controllers/micropost_controller.rb:1:in `<top (required)>'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:302:in `depend_on'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:214:in `require_dependency'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:417:in `block (2 levels) in eager_load!'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `each'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:416:in `block in eager_load!'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `each'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/engine.rb:414:in `eager_load!'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/railties-3.1.1/lib/rails/application/finisher.rb:51:in `block in <module:Finisher>'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/config.ru:4:in `require'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/config.ru:4:in `block in <main>'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.5/lib/rack/builder.rb:51:in `instance_eval'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/config.ru:1:in `new'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.5/lib/rack/server.rb:301:in `wrapped_app'
+2011-12-09T19:16:28+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/rack-1.3.5/lib/rack/server.rb:252:in `start'
+2011-12-09T19:16:28+00:00 heroku[web.1]: Process exited
+2011-12-09T19:16:29+00:00 heroku[web.1]: State changed from starting to crashed
+2011-12-09T19:18:15+00:00 heroku[run.1]: State changed from created to starting
+2011-12-09T19:18:20+00:00 app[run.1]: Awaiting client
+2011-12-09T19:18:20+00:00 app[run.1]: Starting process with command `bundle exec rake db:migrate`
+2011-12-09T19:18:21+00:00 heroku[run.1]: State changed from starting to up
+2011-12-09T19:18:27+00:00 heroku[run.1]: Process exited
+2011-12-09T19:18:41+00:00 heroku[run.2]: State changed from created to starting
+2011-12-09T19:18:46+00:00 app[run.2]: Awaiting client
+2011-12-09T19:18:46+00:00 app[run.2]: Starting process with command `bundle exec rake db:test:prepare`
+2011-12-09T19:18:46+00:00 heroku[run.2]: State changed from starting to up
+2011-12-09T19:18:51+00:00 heroku[run.2]: Process exited
+2011-12-09T19:18:52+00:00 heroku[run.2]: State changed from up to complete
+2011-12-09T19:19:05+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-beach-9688.herokuapp.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:24:11+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-beach-9688.herokuapp.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:24:11+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-beach-9688.herokuapp.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:24:12+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-beach-9688.herokuapp.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:26:28+00:00 heroku[web.1]: State changed from crashed to created
+2011-12-09T19:26:28+00:00 heroku[web.1]: State changed from created to starting
+2011-12-09T19:26:32+00:00 heroku[web.1]: Starting process with command `bundle exec rails server -p 49451`
+2011-12-09T19:26:38+00:00 app[web.1]: => Booting WEBrick
+2011-12-09T19:26:38+00:00 app[web.1]: => Rails 3.1.1 application starting in production on http://0.0.0.0:49451
+2011-12-09T19:26:38+00:00 app[web.1]: => Call with -d to detach
+2011-12-09T19:26:38+00:00 app[web.1]: => Ctrl-C to shutdown server
+2011-12-09T19:26:38+00:00 app[web.1]: Exiting
+2011-12-09T19:26:38+00:00 app[web.1]: /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require': /app/app/models/micropost.rb:6: syntax error, unexpected '=', expecting keyword_end (SyntaxError)
+2011-12-09T19:26:38+00:00 app[web.1]:  validates :content, :presense = > true
+2011-12-09T19:26:38+00:00 app[web.1]:                                 ^
+2011-12-09T19:26:38+00:00 app[web.1]: /app/app/models/micropost.rb:7: syntax error, unexpected tASSOC, expecting keyword_end
+2011-12-09T19:26:38+00:00 app[web.1]:                      :length => {:maximum => 150}
+2011-12-09T19:26:38+00:00 app[web.1]:                                ^
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:181:in `block in const_missing'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `each'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:179:in `const_missing'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:124:in `block in constantize'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `each'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/inflector/methods.rb:123:in `constantize'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/core_ext/string/inflections.rb:43:in `constantize'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:148:in `_default_wrap_model'
+2011-12-09T19:26:38+00:00 app[web.1]: 	from /app/vendor/bundle/ruby/1.9.1/gems/actionpack-3.1.1/lib/action_controller/metal/params_wrapper.rb:167:in `_set_wrapper_defaults'
+2011-12-09T19:26:38+00:00 heroku[web.1]: Process exited
+2011-12-09T19:26:39+00:00 heroku[web.1]: State changed from starting to crashed
