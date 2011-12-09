@@ -15,10 +15,12 @@
 	 	</p>
 	 	
 	 	
-	 	
+	 <center>	<%= text_field "pressRelease", "text" %>
+ <%= button_to"submit" %>
 	 	
 	 	
 	 	<% if signed_in? %>
+	 	<h4>
 <%= link_to "Carbohydrates", search_path, :class => "button round"%>
 
 <%= link_to "Vegtables", search2_path, :class => "button round" %>
@@ -28,6 +30,7 @@
 <%= link_to "Dairy", search4_path, :class => "button round"%>
 
 <%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+</h4></center>
 <% end %>
 	 	
 	 	

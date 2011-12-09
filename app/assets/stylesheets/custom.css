@@ -13,12 +13,13 @@ body {
 
 h1 {
 	text-align: center;
-	font-size: 100%;
+	font-size: 200%;
 	font-weight: bold;
 }
 h4 {
 	
-	font-size: 150%;
+	font-size: 130%;
+	font-style: oblique;
 	font-weight: bold;
 }
 
@@ -40,7 +41,7 @@ h4 {
 }
 
 #banner2 {
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	padding-top: 20px;
 	width: 100px;
 	left:590px;
