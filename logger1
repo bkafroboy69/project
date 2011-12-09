@@ -1,0 +1,42 @@
+2011-12-09T19:33:27+00:00 heroku[api]: Add-on add logging:basic by matt_gamble07@hotmail.com
+2011-12-09T19:33:27+00:00 heroku[api]: Release v2 created by matt_gamble07@hotmail.com
+2011-12-09T19:33:28+00:00 heroku[api]: Add-on update shared-database
+2011-12-09T19:33:28+00:00 heroku[api]: Release v3 created by matt_gamble07@hotmail.com
+2011-12-09T19:33:46+00:00 heroku[slugc]: Slug compilation started
+2011-12-09T19:35:02+00:00 heroku[api]: Deploy f0e68fe by matt_gamble07@hotmail.com
+2011-12-09T19:35:02+00:00 heroku[api]: Release v4 created by matt_gamble07@hotmail.com
+2011-12-09T19:35:03+00:00 heroku[web.1]: State changed from created to starting
+2011-12-09T19:35:03+00:00 heroku[slugc]: Slug compilation finished
+2011-12-09T19:35:08+00:00 app[web.1]: /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require': /app/app/models/micropost.rb:6: syntax error, unexpected '=', expecting keyword_end (SyntaxError)
+2011-12-09T19:35:08+00:00 app[web.1]:  validates :content, :presense = > true
+2011-12-09T19:35:08+00:00 app[web.1]:                                 ^
+2011-12-09T19:35:08+00:00 app[web.1]: /app/app/models/micropost.rb:7: syntax error, unexpected tASSOC, expecting keyword_end
+2011-12-09T19:35:08+00:00 app[web.1]:                      :length => {:maximum => 150}
+2011-12-09T19:35:08+00:00 app[web.1]:                                ^
+2011-12-09T19:35:08+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `block in require'
+2011-12-09T19:35:08+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:225:in `load_dependency'
+2011-12-09T19:35:08+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:240:in `require'
+2011-12-09T19:35:08+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:348:in `require_or_load'
+2011-12-09T19:35:08+00:00 app[web.1]: 	from /app/.bundle/gems/ruby/1.9.1/gems/activesupport-3.1.1/lib/active_support/dependencies.rb:489:in `load_missing_constant'
+2011-12-09T19:35:08+00:00 heroku[web.1]: Process exited
+2011-12-09T19:35:10+00:00 heroku[web.1]: State changed from starting to crashed
+2011-12-09T19:35:10+00:00 heroku[web.1]: State changed from crashed to created
+2011-12-09T19:35:10+00:00 heroku[web.1]: State changed from created to starting
+2011-12-09T19:35:16+00:00 heroku[web.1]: State changed from starting to crashed
+2011-12-09T19:35:18+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:35:18+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:35:18 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:35:18+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:35:18 -0800] "GET /favicon.ico HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:00+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:36:00+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:00 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:00+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/favicon.ico dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:36:00+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:00 -0800] "GET /favicon.ico HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:01+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:01 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:01+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:36:01+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:01 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:01+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:01 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:01+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:36:01+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:01 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:01+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
+2011-12-09T19:36:01+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:01 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:02+00:00 heroku[nginx]: 129.115.30.119 - - [09/Dec/2011:11:36:02 -0800] "GET / HTTP/1.1" 503 607 "-" "Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.04506.648; .NET CLR 3.5.21022; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729; .NET CLR 1.1.4322; .NET4.0C; .NET4.0E)" pure-day-5233.heroku.com
+2011-12-09T19:36:02+00:00 heroku[router]: Error H10 (App crashed) -> GET pure-day-5233.heroku.com/ dyno= queue= wait= service= status=503 bytes=
