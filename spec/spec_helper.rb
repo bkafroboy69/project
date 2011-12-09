@@ -31,3 +31,17 @@ RSpec.configure do |config|
   # rspec-rails.
   config.infer_base_class_for_anonymous_controllers = false
 end
+
+Spork.each_run do
+def test_sign_in(user)
+    controller.sign_in(user)
+  end
+  
+  def integration_sign_in(user)
+    visit signin_path
+    fill_in :email, :with =>user.email
+    click_button
+end
+end
+
+end

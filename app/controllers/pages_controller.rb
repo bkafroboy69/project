@@ -1,9 +1,8 @@
 class PagesController < ApplicationController
   def home
     @title = "Home"
-   
-  end
-
+    
+   end
   def legal
     @title = "Legal"
   end
@@ -27,8 +26,5 @@ class PagesController < ApplicationController
   def faq
     @title = "FAQ"
   end
- def profile
-    @title = "My Profile"
-    #@user = User.where(:id => cookies[:remember_token])
-  end
+ 
 end
