@@ -1,5 +1,6 @@
 class User < ActiveRecord::Base
-  
+
+
   attr_accessible :name, :email
   
   has_many :microposts
@@ -40,4 +41,6 @@ class User < ActiveRecord::Base
   def self.authenticate(email)
      user = find_by_email(email)
   end
+  
+  
 end

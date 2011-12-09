@@ -1,6 +1,7 @@
 
 .container {
-	width: 710px;
+	width: 600px;
+
 	
 	
 }
@@ -37,17 +38,19 @@ h4 {
 	background-attachment: scroll;
 	border: thin black solid;
 }
-#sidebar {
-   background-position: 100px 0px;
-  height: 80px;
-  width: 50px;
-  float: left;
-  padding-left: 20px;
-  position: relative;
-  border-radius: 10px;
-  background-color :#FFFFFF
 
-	
+#banner2 {
+	background-color: #FFFFFF;
+	padding-top: 20px;
+	width: 100px;
+	left:590px;
+	border-radius: 10px;
+	font-size: 150%;
+	font-weight: bold;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	border: thin black solid;
 }
 
 
@@ -63,6 +66,7 @@ section {
 	margin-top: 1em;
 	font-size; 120%;
 	padding: 20px;
+	
 	background: #fff;
 }
 
@@ -72,13 +76,13 @@ a {
 }
 
 a:hover {
-	color: #069;
+	color: #099;
 	text-decoration: underline;
-	
+	font-weight: bold;
 }
 
 a:visited {
-	color: #069;
+	color: #085;
 }
 
 nav {
