@@ -1,36 +1,42 @@
-
 .container {
-	width: 600px;
-
-	
-	
+	width: 500px;
+	height: 800px;
 }
-
 body {
-	background: #33ffdd;
+	background: #999999;
 	
 }
-
 h1 {
 	text-align: center;
 	font-size: 200%;
 	font-weight: bold;
 }
 h4 {
-	
+
 	font-size: 130%;
 	font-style: oblique;
 	font-weight: bold;
 }
-
-
 #banner {
 	background-position: 100px 0px;
-	background-color: #aaaaaa;
+	background-color: #33ffdd;
 	padding-top: 20px;
 	height: 50px;
 	width: 670px;
 	padding: 20px;
+	border-radius: 20px;
+	font-size: 150%;
+	font-weight: bold;
+	position: relative;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	border: thin black solid;
+}
+#banner2 {
+	background-color: #ffffff;
+	padding-top: 10px;
+	right: -220px;
+
 	border-radius: 10px;
 	font-size: 150%;
 	font-weight: bold;
@@ -40,84 +46,59 @@ h4 {
 	border: thin black solid;
 }
 
-#banner2 {
-	background-color: #ffffff;
-	padding-top: 20px;
-	width: 100px;
-	left:590px;
-	border-radius: 10px;
-	font-size: 150%;
-	font-weight: bold;
-	position: relative;
-	background-repeat: no-repeat;
-	background-attachment: scroll;
-	border: thin black solid;
-}
 
 
 header img {
 	padding: .5em;
 	background: #fff;
 	width: auto;
-	
 }
-
 section {
 	border: medium black solid;
 	margin-top: 1em;
-	font-size; 120%;
+	font-size: 120%;
 	padding: 20px;
-	
 	background: #fff;
-}
 
+}
 a {
 	color: #09c;
 	text-decoration: none;
 }
-
 a:hover {
 	color: #099;
 	text-decoration: underline;
 	font-weight: bold;
 }
-
 a:visited {
 	color: #085;
 }
-
 nav {
 	float: right;
 	background: white;
 	padding: 0 0.7em;
 	white-space: nowrap;
 }
-
 nav ul {
 	margin: 0px;
 	padding: 0px;
 }
-
 nav ul li {
 	list-style-type: none;
 	display: inline-block;
 	padding: 0.2em 0;
 }
-
 nav ul li {
 	padding: 0 5px;
 	font-weight: bold;
 }
-
 nav ul li a:visited {
 	color: #09c;
 }
-
 nav ul li a:hover {
 	text-decoration: underline;
 }
-
-a.signup_button{
+a.signup_button {
 	margin-left: auto;
 	margin-right: auto;
 	display: block;
@@ -129,22 +110,18 @@ a.signup_button{
 	font-weight: bold;
 	padding: 20px;
 }
-
 .round {
 	-moz-border-radius: 10px;
 	-webkit-border-radius: 10px;
 	border-radius: 10px;
 }
-
 footer {
 	text-align: center;
 	margin-top: 10px;
 	width: 710px;
 	margin-left: auto;
 	margin-right: auto;
-
 }
-
 footer nav {
 	float: none;
 }
