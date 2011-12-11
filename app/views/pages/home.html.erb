@@ -11,27 +11,28 @@
 <p>New user? Click <%= link_to "here", signup_path %> to sign up FREE</p>
 
 
-Browse through calorie and nutritional information with this easy to use our food meter and 
-learn which foods and beverages work for your waistline and which ones are not goo for you.
-So turn that frankenstein in the mirror into a frank-fine!!!
+Browse through our food items and discover calories and nutritional information with this easy to use our food meter and 
+learn which foods and beverages work for your waistline and which ones are not.
+<h4>So turn that frankenstein in the mirror into a frank-fine!!!</h4>
 </p>
 
 
-
+<%= link_to image_tag("greekfood.jpg") %>
 
 
 
 <% if signed_in? %>
-<h4>
-<%= link_to "Carbohydrates", search_path, :class => "button round"%>
 
-<%= link_to "Vegtables", search2_path, :class => "button round" %>
+<h4>Start looking up food here:<br/>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%><br/>
 
-<%= link_to "Fruits", search3_path, :class => "button round"%>
+<%= link_to "Vegtables", search2_path, :class => "button round" %><br/>
 
-<%= link_to "Dairy", search4_path, :class => "button round"%>
+<%= link_to "Fruits", search3_path, :class => "button round"%><br/>
 
-<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<%= link_to "Dairy", search4_path, :class => "button round"%><br/>
+
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%><br/>
 </h4>
 <% end %>
 <br/>
