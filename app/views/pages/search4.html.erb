@@ -2,8 +2,11 @@
  
  
  
-	 <p>Milk<br/>
+	 <p>Milk (8oz )<br/>
 	 	Calories 78
+	 	</p>
+	 	<p>Yogurt (6oz)<br/>
+	 	Calories 60
 	 	</p>
 	 	
 	 	 <p>Slice of cheese<br/>
@@ -21,15 +24,15 @@
 	 	
 	 	<% if signed_in? %>
 	 	<h4>
-<%= link_to "Carbohydrates", search_path, :class => "button round"%>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%><br/>
 
-<%= link_to "Vegtables", search2_path, :class => "button round" %>
+<%= link_to "Vegtables", search2_path, :class => "button round" %><br/>
 
-<%= link_to "Fruits", search3_path, :class => "button round"%>
+<%= link_to "Fruits", search3_path, :class => "button round"%><br/>
 
 
 
-<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%><br/>
 </h4></center>
 <% end %>
 	<header>

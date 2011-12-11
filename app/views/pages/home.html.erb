@@ -14,6 +14,9 @@
 Browse through calorie and nutritional information with this easy to use our food meter and 
 learn which foods and beverages work for your waistline and which ones are not goo for you.
 So turn that frankenstein in the mirror into a frank-fine!!!
+
+<%= image_tag("greekfood.jpg")%>
+
 </p>
 
 
@@ -23,15 +26,16 @@ So turn that frankenstein in the mirror into a frank-fine!!!
 
 <% if signed_in? %>
 <h4>
-<%= link_to "Carbohydrates", search_path, :class => "button round"%>
+	Start Looking Up Food HERE!!!!<br/>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%><br/>
 
-<%= link_to "Vegtables", search2_path, :class => "button round" %>
+<%= link_to "Vegtables", search2_path, :class => "button round" %><br/>
 
-<%= link_to "Fruits", search3_path, :class => "button round"%>
+<%= link_to "Fruits", search3_path, :class => "button round"%><br/>
 
-<%= link_to "Dairy", search4_path, :class => "button round"%>
+<%= link_to "Dairy", search4_path, :class => "button round"%><br/>
 
-<%= link_to "Meats And Beans", search5_path, :class => "button round"%>
+<%= link_to "Meats And Beans", search5_path, :class => "button round"%><br/>
 </h4>
 <% end %>
 <br/>

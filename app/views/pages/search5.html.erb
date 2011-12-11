@@ -6,6 +6,9 @@
 	 	Calories 156
 	 	</p>
 	 	
+	 	<p>Tuna Fish (1/4 cup)<br/>
+	 	Calories 126
+	 	</p>
 	 	<p>Prime Steak (3oz)<br/>
 	 	Calories 221
 	 	</p>
@@ -20,13 +23,13 @@
 	 	
 	 	<% if signed_in? %>
 	 	<h4>
-<%= link_to "Carbohydrates", search_path, :class => "button round"%>
+<%= link_to "Carbohydrates", search_path, :class => "button round"%><br/>
 
-<%= link_to "Vegtables", search2_path, :class => "button round" %>
+<%= link_to "Vegtables", search2_path, :class => "button round" %><br/>
 
-<%= link_to "Fruits", search3_path, :class => "button round"%>
+<%= link_to "Fruits", search3_path, :class => "button round"%><br/>
 
-<%= link_to "Dairy", search4_path, :class => "button round"%>
+<%= link_to "Dairy", search4_path, :class => "button round"%><br/>
 
 </h4></center>
 <% end %>
